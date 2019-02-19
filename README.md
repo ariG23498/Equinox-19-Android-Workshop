@@ -1,2 +1,25 @@
-# Techno_Batanagar
-The repository consists of resources for my seminar on "Android with Java".
+
+# Android Studio Overview:
+
+Each project in Android Studio contains one or more modules with source code files and resource files. Types of modules include:
+* Android app modules
+* Library modules
+* Google App Engine modules
+By default, Android Studio displays your project files in the Android project view, as shown. This view is organized by modules to provide quick access to your project's key source files.
+<img src="https://developer.android.com/studio/images/intro/project-android-view_2-1_2x.png" height=600>
+
+***
+
+### The User Interface
+
+<img src="https://developer.android.com/studio/images/intro/main-window_2-2_2x.png" height=600>
+
+1. The toolbar lets you carry out a wide range of actions, including running your app and launching Android tools.
+2. The navigation bar helps you navigate through your project and open files for editing. It provides a more compact view of the structure visible in the Project window.
+3. The editor window is where you create and modify code. Depending on the current file type, the editor can change. For example, when viewing a layout file, the editor displays the Layout Editor.
+4. The tool window bar runs around the outside of the IDE window and contains the buttons that allow you to expand or collapse individual tool windows.
+5. The tool windows give you access to specific tasks like project management, search, version control, and more. You can expand them and collapse them.
+6. The status bar displays the status of your project and the IDE itself, as well as any warnings or messages.
+
+***
+
