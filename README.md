@@ -22,7 +22,8 @@ By default, Android Studio displays your project files in the Android project vi
 6. The status bar displays the status of your project and the IDE itself, as well as any warnings or messages.
 
 ***
-# Find your Android Build number
+# Become a developer 
+## Find your Android Build number
 Before you can enable Developer options on your Android phone or tablet, you'll first need to find your phone's build number. On most phones, you can simply type build number into the search field, but here's how to find it on a few popular devices:
 
 ![](https://images.idgesg.net/images/article/2019/01/android-build-number-100784089-large.jpg)
