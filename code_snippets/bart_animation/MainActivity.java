@@ -8,16 +8,20 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
 
 
+
+
     boolean tapped = false;
+
+
     public void tap(View view){
         ImageView bart = findViewById(R.id.imageView);
         if(tapped) {
             tapped = false;
-            bart.animate().alpha(1).setDuration(2000);
+            bart.animate().rotation(0).alpha(1).setDuration(2000);
         }
         else{
             tapped = true;
-            bart.animate().alpha(0).setDuration(2000);
+            bart.animate().rotation(180).alpha(0).setDuration(2000);
         }
     }
 
@@ -25,5 +29,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageView bart = findViewById(R.id.imageView);
+
+        bart.setX(-1000);
+        bart.animate().translationXBy(1000).setDuration(2000);
+
     }
 }
