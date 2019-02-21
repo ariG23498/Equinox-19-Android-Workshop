@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Guess</string>
+    <string name="heading">Guess an integer between 0 to 20</string>
+</resources>
